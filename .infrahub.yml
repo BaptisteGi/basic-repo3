@@ -1,0 +1,4 @@
+---
+queries:
+  - name: Get Tags
+    file_path: queries/tag.gql

@@ -2,6 +2,6 @@
 apiVersion: infrahub.app/v1
 kind: Object
 spec:
-  kind: CoreGroup
+  kind: CoreStandardGroup
   data:
     - name: "widgets"

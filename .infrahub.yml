@@ -2,3 +2,6 @@
 queries:
   - name: Get Tags
     file_path: queries/tag.gql
+
+objects:
+  - "objects/groups.yml"

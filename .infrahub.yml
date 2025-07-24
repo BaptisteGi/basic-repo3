@@ -4,4 +4,7 @@ queries:
     file_path: queries/tag.gql
 
 objects:
-  - "objects/groups.yml"
+  - objects/groups.yml
+
+schemas:
+  - schemas/widgets.yml

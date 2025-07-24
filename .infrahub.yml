@@ -10,3 +10,13 @@ objects:
 
 schemas:
   - schemas/widgets.yml
+
+generator_definitions:
+  - name: widget_generator
+    file_path: generators/widget_generator.py
+    targets: widgets
+    query: widget_query
+    convert_query_response: true
+    class_name: WidgetGenerator
+    parameters:
+      name: name__value

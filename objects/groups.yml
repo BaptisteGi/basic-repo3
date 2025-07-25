@@ -4,4 +4,5 @@ kind: Object
 spec:
   kind: CoreStandardGroup
   data:
-    - name: "widgets"
+    - name: colored_tags
+      description: Group for colored tags

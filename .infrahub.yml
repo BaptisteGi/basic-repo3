@@ -1,22 +1,12 @@
-# ---
-# queries:
-#   - name: Some Query
-#     file_path: queries/some.gql
-#   - name: widget_query
-#     file_path: queries/widget_query.gql
+---
+queries:
+  - name: tags_query
+    file_path: queries/tags_query.gql
 
-# objects:
-#   - objects/groups.yml
-
-# schemas:
-#   - schemas/widgets.yml
-
-# generator_definitions:
-#   - name: widget_generator
-#     file_path: generators/widget_generator.py
-#     targets: widgets
-#     query: widget_query
-#     convert_query_response: true
-#     class_name: WidgetGenerator
-#     parameters:
-#       name: name__value
+check_definitions:
+  - name: check_color_tags_name
+    class_name: ColorTagsCheck
+    file_path: checks/tags_check.py
+    targets: colored_tags # This specifies the group to target
+    parameters:
+      name: "name__value"

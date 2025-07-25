@@ -1,0 +1,18 @@
+---
+apiVersion: infrahub.app/v1
+kind: Object
+spec:
+  kind: BuiltinTag
+  data:
+    - name: "color-red"
+      description: "The red tag"
+      member_of_groups:
+        - ["colored_tags"]
+    - name: "color-green"
+      description: "The green tag"
+      member_of_groups:
+        - ["colored_tags"]
+    - name: "blue"
+      description: "The blue tag"
+      member_of_groups:
+        - ["colored_tags"]

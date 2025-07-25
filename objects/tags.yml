@@ -1,0 +1,12 @@
+---
+apiVersion: infrahub.app/v1
+kind: Object
+spec:
+  kind: BuiltinTag
+  data:
+    - name: "color-red"
+      description: "The red tag"
+    - name: "color-green"
+      description: "The green tag"
+    - name: "blue"
+      description: "The blue tag"

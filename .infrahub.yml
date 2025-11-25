@@ -1,4 +1,4 @@
-# ---
+---
 # queries:
 #   - name: Some Query
 #     file_path: queries/some.gql
@@ -8,8 +8,8 @@
 # objects:
 #   - objects/groups.yml
 
-# schemas:
-#   - schemas/widgets.yml
+schemas:
+  - schemas/widgets.yml
 
 # generator_definitions:
 #   - name: widget_generator

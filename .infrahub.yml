@@ -2,8 +2,8 @@
 queries:
     - name: Tag Query
       file_path: queries/tag.gql
-#   - name: widget_query
-#     file_path: queries/widget_query.gql
+    - name: widget_query
+      file_path: queries/widget_query.gql
 
 # objects:
 #   - objects/groups.yml

@@ -7,8 +7,8 @@ queries:
     - name: widget_query2
       file_path: queries/widget_query.gql
 
-# objects:
-#   - objects/groups.yml
+objects:
+  - objects/groups.yml
 
 schemas:
   - schemas/widgets.yml
